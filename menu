@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Menu de Hambúrguer</title>
+</head>
+<body>
+    <div class="menu">
+        <h1>Menu</h1>
+        <div class="combo">
+            <h2>Combo 1 - R$ 25,00</h2>
+            <p>Lanche de cheddar com bacon</p>
+            <p>Batata frita e refrigerante</p>
+        </div>
+        <div class="combo">
+            <h2>Combo 2 - R$ 30,00</h2>
+            <p>Costela com geleia de pimenta</p>
+            <p>Batata frita e refrigerante</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+body {
+    background-color: #FFCC99; /* Laranja pastel */
+    color: red; /* Letras em vermelho */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.menu {
+    max-width: 600px;
+    margin: auto;
+}
+
+.combo {
+    border: 2px solid red; /* Bordas vermelhas */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com leve transparência */
+}
+
+h1 {
+    font-size: 2.5em;
+}
